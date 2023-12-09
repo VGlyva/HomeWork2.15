@@ -1,6 +1,6 @@
 package org.example;
 
-public class StringListIsFullException extends RuntimeException {
+public class  StringListIsFullException extends RuntimeException {
     public StringListIsFullException() {
     }
 

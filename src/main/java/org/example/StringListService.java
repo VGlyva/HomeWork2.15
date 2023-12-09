@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Arrays;
 
-public class StringListService implements StringList {
+public class  StringListService implements StringList {
     private final String[] storage;
     private Integer size;
 

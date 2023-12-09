@@ -13,7 +13,7 @@ public interface StringList {
     // в качестве результата выполнения.
     String add(int index, String item);
 
-    String set(int index, String item);
+    String  set(int index, String item);
 
 
     String remove(String item);
