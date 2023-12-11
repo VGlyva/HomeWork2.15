@@ -1,8 +1,8 @@
 package org.example;
 
-public interface StringList {
+public interface IntegerList {
 
-    String add(String item);
+    Integer add(Integer item);
 
     // Добавление элемента
     // на определенную позицию списка.
@@ -11,33 +11,33 @@ public interface StringList {
     // выбросить исключение.
     // Вернуть добавленный элемент
     // в качестве результата выполнения.
-    String add(int index, String item);
+    Integer add(int index, Integer item);
 
-    String  set(int index, String item);
-
-
-    String remove(String item);
+    Integer  set(int index, Integer item);
 
 
-    String remove(int index);
+    Integer remove(Integer item);
 
 
-    boolean contains(String item);
+    Integer remove(int index);
 
 
-    int indexOf(String item);
+    boolean contains(Integer item);
 
 
-    int lastIndexOf(String item);
+    int indexOf(Integer item);
+
+
+    int lastIndexOf(Integer item);
 
     // Получить элемент по индексу.
     // Вернуть элемент или исключение,
     // если выходит за рамки фактического
     // количества элементов.
 
-    String get(int index);
+    Integer get(int index);
 
-    boolean equals(StringList otherList);
+    boolean equals(IntegerList otherList);
 
 
     int size();
@@ -48,6 +48,6 @@ public interface StringList {
 
     void clear();
 
-    String[] toArray();
+    Integer[] toArray();
 }
 
