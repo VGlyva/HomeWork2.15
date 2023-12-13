@@ -1,6 +1,6 @@
 package org.example;
 
-public class NullItemException extends RuntimeException {
+public class  NullItemException extends RuntimeException {
     public NullItemException() {
     }
 
