@@ -160,7 +160,7 @@ public class IntegerListService implements IntegerList {
     // если элементов в списке нет,
     // иначе false.
     @Override
-    public boolean isEmpty() {
+    public boolean  isEmpty() {
         return size == 0;
     }
 
