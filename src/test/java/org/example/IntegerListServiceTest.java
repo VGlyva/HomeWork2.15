@@ -40,6 +40,7 @@ class IntegerListServiceTest {
         TEST_ARR.add(2);
         TEST_ARR.add(6);
         assertEquals(2, (int) TEST_ARR.remove(0));
+        assertFalse(TEST_ARR.contains(2));
     }
 
     @Test
